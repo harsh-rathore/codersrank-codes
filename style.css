@@ -36,8 +36,5 @@ header{
   grid-template-columns: auto 1072px max-content auto !important;
   display: grid;
   place-items: stretch;
-  grid-auto-rows: auto;
-  grid-column: 2 / auto;
-  column-gap: 0px;
   z-index: 900;
 }
