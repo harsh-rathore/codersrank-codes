@@ -1,0 +1,43 @@
+body{
+    background: #fafffe;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding-top: 10px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+hr{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+p{
+  background:#87d8d8;
+  padding: 10px;
+  border-spacing: 0px;
+  border-radius: 10pt;
+  font-family: inherit;
+  font-stretch: condensed;
+  font-weight: 400;
+  font-style: normal;
+  height:;
+}
+h1{
+  fill: aliceblue;
+  background-origin: content-box;
+}
+header{
+  font-family: Segoe UI, Segoe UI Midlevel, Segoe WP, Arial, Sans-Serif;
+  width: 100%;
+  grid-template-columns: auto 1072px max-content auto !important;
+  display: grid;
+  place-items: stretch;
+  grid-auto-rows: auto;
+  grid-column: 2 / auto;
+  column-gap: 0px;
+  z-index: 900;
+}
